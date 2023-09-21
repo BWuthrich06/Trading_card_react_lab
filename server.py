@@ -10,11 +10,17 @@ def show_homepage():
     return render_template('homepage.html')
 
 
+
+
+
 @app.route('/cards')
 def show_cards():
     """Show all trading cards."""
 
     return render_template('cards.html')
+
+
+
 
 
 if __name__ == '__main__':
